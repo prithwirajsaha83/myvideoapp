@@ -1,0 +1,20 @@
+carousel-inner.onebyone-carosel { margin: auto; width: 100%; }
+.onebyone-carosel .active.left { left: -24%; }
+.onebyone-carosel .active.right { left: 24%; }
+.onebyone-carosel .next { left: 25%; }
+.onebyone-carosel .prev { left: -25%; }
+.modal.and.carousel {
+  position: absolute; // Needed because the carousel overrides the position property
+}
+.openModal
+{
+	cursor:pointer;
+}
+.carousel-control
+{
+	width:5% !important;
+}
+.openModalHistory
+{
+	cursor:pointer;
+}
